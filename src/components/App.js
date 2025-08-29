@@ -9,9 +9,10 @@ import { useState } from "react";
 import StepV2 from "./StepV2";
 import AccordionV2 from "./AccordionV2";
 import Calculator from "./Calculator";
+import TextExpander from "./TextExpander";
 
 export default function App() {
-  const [page, setPage] = useState("calculator");
+  const [page, setPage] = useState("textExpander");
 
   return (
     <>
@@ -25,6 +26,7 @@ export default function App() {
         {page === "accordionComponent" && <AccordionComponent />}
         {page === "accordionv2" && <AccordionV2 />}
         {page === "calculator" && <Calculator />}
+        {page === "textExpander" && <TextExpander />}
       </div>
     </>
   );
