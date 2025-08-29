@@ -1,0 +1,22 @@
+.navbar {
+  background: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar li:hover {
+  color: yellow;
+}
