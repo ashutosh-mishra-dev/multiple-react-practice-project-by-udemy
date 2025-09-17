@@ -11,9 +11,10 @@ import AccordionV2 from "./AccordionV2";
 import Calculator from "./Calculator";
 import TextExpander from "./TextExpander";
 import Profile from "./Profile";
+import Pizzas from "./Pizzas";
 
 export default function App() {
-  const [page, setPage] = useState("profile");
+  const [page, setPage] = useState("flashcard");
 
   return (
     <>
@@ -29,6 +30,7 @@ export default function App() {
         {page === "calculator" && <Calculator />}
         {page === "textExpander" && <TextExpander />}
         {page === "profile" && <Profile />}
+        {page === "pizzas" && <Pizzas />}
       </div>
     </>
   );
