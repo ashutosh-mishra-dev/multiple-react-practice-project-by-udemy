@@ -14,6 +14,7 @@ function Navbar({ setPage }) {
         <li onClick={() => setPage("calculator")}>Calculator</li>
         <li onClick={() => setPage("textExpander")}>TextExpander</li>
         <li onClick={() => setPage("pizzas")}>Pizzas</li>
+        <li onClick={() => setPage("howReactWork")}>ReactWork</li>
       </ul>
     </nav>
   );
