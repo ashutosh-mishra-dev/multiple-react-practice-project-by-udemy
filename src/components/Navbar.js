@@ -13,6 +13,7 @@ function Navbar({ setPage }) {
         <li onClick={() => setPage("accordionv2")}>Accordion V2</li>
         <li onClick={() => setPage("calculator")}>Calculator</li>
         <li onClick={() => setPage("textExpander")}>TextExpander</li>
+        <li onClick={() => setPage("profile")}>Profile</li>
       </ul>
     </nav>
   );
