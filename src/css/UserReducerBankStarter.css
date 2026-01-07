@@ -1,0 +1,14 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttons button {
+  font-size: 16px;
+  line-height: 1;
+  background-color: #f2a650;
+  color: aliceblue;
+}

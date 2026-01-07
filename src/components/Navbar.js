@@ -15,6 +15,12 @@ function Navbar({ setPage }) {
         <li onClick={() => setPage("textExpander")}>TextExpander</li>
         <li onClick={() => setPage("pizzas")}>Pizzas</li>
         <li onClick={() => setPage("howReactWork")}>ReactWork</li>
+        <li onClick={() => setPage("useReducer-bank-starter")}>
+          useReducer bank starter
+        </li>
+        <li onClick={() => setPage("LifecycleDemo-useReducer")}>
+          LifecycleDemo useReducer
+        </li>
       </ul>
     </nav>
   );
